@@ -12,3 +12,33 @@ in this example wxyz will be the name of the folder that contains the contents o
 git status
 
 this command shows you what files have changed in your local directory compared with what has been committed on your local repository.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+git diff
+
+this command show you what has changed exactly inside all the files comparing your local files to the local commit tree
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+git add
+
+this command "stages" changes, in preparation for committing them
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+git commit 
+
+this command "lock in" staged changes and makes them "official"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+git push
+
+this command sends all of your commits to another "clone" of the same repository
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+git pull
+
+this command pulls all the commits from one place to your local "clone" of a "repository"
