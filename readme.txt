@@ -42,3 +42,17 @@ this command sends all of your commits to another "clone" of the same repository
 git pull
 
 this command pulls all the commits from one place to your local "clone" of a "repository"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+git branch
+
+this command does lots of branch stuff... without any parameters it will show you all the branches that your local machine knows about
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+git checkout
+
+this is a very magical command that does many many things. The person who made git should be ashamed of themselves.
+"git checkout -b xyz" will copy the current branch and make a new one identical to it called in this example "xyz"
+
